@@ -5,7 +5,7 @@ project_type = :stand_alone
 http_path = "/libvarnam"
 http_images_path = "/libvarnam/images"
 http_fonts_path = "/libvarnam/fonts"
-css_dir = "public/libvarnam/stylesheets"
+css_dir = "public/stylesheets"
 
 # Local development paths
 sass_dir = "sass"

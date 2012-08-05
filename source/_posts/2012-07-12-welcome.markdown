@@ -1,0 +1,44 @@
+---
+layout: post
+title: "Introduction"
+date: 2012-07-12 17:05
+comments: true
+categories: [Varnam, Introduction]
+---
+Hello everybody out there -
+
+Welcome to "Varnam Project". "Varnam" is an open source, cross platform transliterator for Indian languages. Varnam is implemented as a learning program which can learn words and patterns. This learnings will be utilized when Varnam does the transliteration which will make the whole typing easy. You can also train Varnam to behave in the way you want.
+
+History
+---------
+
+Why Varnam?
+
+I use 3 operating systems in my day to day life. Most of the office work will be on Mac OS X. Linux and Windows for my personal projects.
+
+When switching between operating systems, if you are getting the tools that you are used with, you always feels home. I was missing this in terms of an indic input program. Most of the programs are avaiable only for Windows and few for Linux. I haven't seen any native program that support transliteration on Mac OS X. I also haven't seen any open-source cross platform program that does learning and transliteration.
+
+Varnam is created to address all these issues. It is created with the following design goals.
+
+* Easy to use  - Varnam APIs are very straightforward and easy to use.
+* Less dependencies - Varnam uses SQLite as the file format. No other dependecies are required.
+* Works everywhere - Varnam is written in C adhering to the most portable C89 standard.
+* Multi language support - We'd be adding support for almost all the popular programming languages.
+
+Current status
+---------------
+
+Varnam is under active development. APIs are evolving constantly. Currently it supports only "Malayalam" but we'd be adding support for most of the popular languages.
+
+If Varnam could do all those stuff that I am envisioning, you'd be able to
+
+* Type and train on a web version of Varnam - This would be similar to Google's transliterator but much more superior than Google transliterator. More implementation details can be explained in later posts.
+* Drop "Varnam" as a Javascript file to your web application and get indic input with words suggestion in your websites.
+* Use "libvarnam" stand-alone desktop applications in any language of your choice.
+* Plugins for all popular browsers.
+* Input system for Android and iOS.
+* Input system for Linux and Windows.
+
+Varnam project is hosted at [Github](https://github.com/navaneeth/libvarnam "libvarnam"). Project status will be updated in this blog and [http://www.varnamproject.com](http://www.varnamproject.com)
+
+
