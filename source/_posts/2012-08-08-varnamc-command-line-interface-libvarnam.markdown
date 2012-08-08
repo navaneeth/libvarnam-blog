@@ -7,7 +7,7 @@ categories: [libvarnam, Varnam]
 ---
 I have created a simple command line interface to `libvarnam`. It is called as `varnamc`.
 
-```
+```sh
 $ ./varnamc -h
 Usage: varnamc [options] language_code args
     -l, --library FILE               Sets the varnam library
@@ -30,7 +30,7 @@ Invoke `varnamc` with a symbols file and one action. Action could be translitera
 
 To transliterate the text `malayalam`,
 
-```
+```sh
 $ ./varnamc --symbols ml --transliterate malayalam
 ```
 
@@ -38,13 +38,13 @@ $ ./varnamc --symbols ml --transliterate malayalam
 
 To learn a word,
 
-```
+```sh
 $ ./varnamc --symbols ml --learn മലയാളം
 ```
 
 To compile a scheme file,
 
-```
+```sh
 $ ./varnamc --symbols ml --compile schemes/ml-unicode
 ```
 
